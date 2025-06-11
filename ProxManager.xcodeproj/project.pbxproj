@@ -3,23 +3,24 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4F0756862B87FF6000544F73 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0756852B87FF6000544F73 /* SettingsView.swift */; };
-		4F62C9032B96731A0067A66C /* QemuDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F62C9022B96731A0067A66C /* QemuDetailView.swift */; };
-		4F62C9052B9674DF0067A66C /* Previews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F62C9042B9674DF0067A66C /* Previews.swift */; };
-		4F6DE0B62B87390C0016655B /* ProxmoxModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6DE0B52B87390C0016655B /* ProxmoxModels.swift */; };
-		4FBA93622B86751500129BEF /* ProxManagerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBA93612B86751500129BEF /* ProxManagerApp.swift */; };
-		4FBA93642B86751500129BEF /* ProxmoxViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBA93632B86751500129BEF /* ProxmoxViews.swift */; };
-		4FBA93662B86751600129BEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FBA93652B86751600129BEF /* Assets.xcassets */; };
 		4FBA936A2B86751600129BEF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FBA93692B86751600129BEF /* Preview Assets.xcassets */; };
 		4FBA93742B86751600129BEF /* ProxManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBA93732B86751600129BEF /* ProxManagerTests.swift */; };
-		4FBD73802B9540A300F8F1DA /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBD737F2B9540A300F8F1DA /* DetailView.swift */; };
-		4FBDDEB92B868CD7003695C5 /* ProxmoxViewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBDDEB82B868CD7003695C5 /* ProxmoxViewModels.swift */; };
-		4FBDDEBD2B868D3D003695C5 /* ProxmoxNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBDDEBC2B868D3D003695C5 /* ProxmoxNetworking.swift */; };
-		4FD3958B2B967CC700DAE28D /* NodeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD3958A2B967CC700DAE28D /* NodeDetailView.swift */; };
+		4FD0C5EC2DF9CC7400E7B5BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FD0C5E52DF9CC7400E7B5BB /* Assets.xcassets */; };
+		4FD0C5ED2DF9CC7400E7B5BB /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD0C5E62DF9CC7400E7B5BB /* Logger.swift */; };
+		4FD0C5F12DF9CC7400E7B5BB /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD0C5E72DF9CC7400E7B5BB /* NetworkManager.swift */; };
+		4FD0C5F52DF9CC7400E7B5BB /* ProxmoxDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD0C5EA2DF9CC7400E7B5BB /* ProxmoxDataStore.swift */; };
+		4FD0C5F62DF9CC7400E7B5BB /* ProxmoxAuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD0C5E92DF9CC7400E7B5BB /* ProxmoxAuthManager.swift */; };
+		4FD0C5F92DF9CC7400E7B5BB /* ProxmoxModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD0C5EB2DF9CC7400E7B5BB /* ProxmoxModels.swift */; };
+		4FD0C5FD2DF9CC7400E7B5BB /* ProxManagerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD0C5E82DF9CC7400E7B5BB /* ProxManagerApp.swift */; };
+		4FD0C6032DF9CCB100E7B5BB /* NIOSSH in Frameworks */ = {isa = PBXBuildFile; productRef = 4FD0C6022DF9CCB100E7B5BB /* NIOSSH */; };
+		4FD0C6062DF9CCC200E7B5BB /* SwiftKeychainWrapper in Frameworks */ = {isa = PBXBuildFile; productRef = 4FD0C6052DF9CCC200E7B5BB /* SwiftKeychainWrapper */; };
+		4FD0C6092DF9CCEC00E7B5BB /* BigInt in Frameworks */ = {isa = PBXBuildFile; productRef = 4FD0C6082DF9CCEC00E7B5BB /* BigInt */; };
+		4FD0C60D2DF9CECC00E7B5BB /* Citadel in Frameworks */ = {isa = PBXBuildFile; productRef = 4FD0C60C2DF9CECC00E7B5BB /* Citadel */; };
+		4FD0C6102DF9CEDC00E7B5BB /* SwiftKeychainWrapper in Frameworks */ = {isa = PBXBuildFile; productRef = 4FD0C60F2DF9CEDC00E7B5BB /* SwiftKeychainWrapper */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,30 +41,37 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4F0756852B87FF6000544F73 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
-		4F62C9022B96731A0067A66C /* QemuDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QemuDetailView.swift; sourceTree = "<group>"; };
-		4F62C9042B9674DF0067A66C /* Previews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Previews.swift; sourceTree = "<group>"; };
-		4F6DE0B52B87390C0016655B /* ProxmoxModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProxmoxModels.swift; sourceTree = "<group>"; };
 		4FBA935E2B86751500129BEF /* ProxManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProxManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4FBA93612B86751500129BEF /* ProxManagerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProxManagerApp.swift; sourceTree = "<group>"; };
-		4FBA93632B86751500129BEF /* ProxmoxViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProxmoxViews.swift; sourceTree = "<group>"; };
-		4FBA93652B86751600129BEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4FBA93672B86751600129BEF /* ProxManager.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ProxManager.entitlements; sourceTree = "<group>"; };
 		4FBA93692B86751600129BEF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4FBA936F2B86751600129BEF /* ProxManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProxManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FBA93732B86751600129BEF /* ProxManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProxManagerTests.swift; sourceTree = "<group>"; };
 		4FBA93792B86751600129BEF /* ProxManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProxManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4FBD737F2B9540A300F8F1DA /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
-		4FBDDEB82B868CD7003695C5 /* ProxmoxViewModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProxmoxViewModels.swift; sourceTree = "<group>"; };
-		4FBDDEBC2B868D3D003695C5 /* ProxmoxNetworking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProxmoxNetworking.swift; sourceTree = "<group>"; };
-		4FD3958A2B967CC700DAE28D /* NodeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodeDetailView.swift; sourceTree = "<group>"; };
+		4FD0C5E52DF9CC7400E7B5BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4FD0C5E62DF9CC7400E7B5BB /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		4FD0C5E72DF9CC7400E7B5BB /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		4FD0C5E82DF9CC7400E7B5BB /* ProxManagerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProxManagerApp.swift; sourceTree = "<group>"; };
+		4FD0C5E92DF9CC7400E7B5BB /* ProxmoxAuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProxmoxAuthManager.swift; sourceTree = "<group>"; };
+		4FD0C5EA2DF9CC7400E7B5BB /* ProxmoxDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProxmoxDataStore.swift; sourceTree = "<group>"; };
+		4FD0C5EB2DF9CC7400E7B5BB /* ProxmoxModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProxmoxModels.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		4FD0C5CF2DF9CC3900E7B5BB /* QNAPManager */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = QNAPManager; sourceTree = "<group>"; };
+		4FD0C5D92DF9CC7400E7B5BB /* ViewModels */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = ViewModels; sourceTree = "<group>"; };
+		4FD0C5E42DF9CC7400E7B5BB /* Views */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Views; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		4FBA935B2B86751500129BEF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FD0C6092DF9CCEC00E7B5BB /* BigInt in Frameworks */,
+				4FD0C60D2DF9CECC00E7B5BB /* Citadel in Frameworks */,
+				4FD0C6102DF9CEDC00E7B5BB /* SwiftKeychainWrapper in Frameworks */,
+				4FD0C6062DF9CCC200E7B5BB /* SwiftKeychainWrapper in Frameworks */,
+				4FD0C6032DF9CCB100E7B5BB /* NIOSSH in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,16 +115,16 @@
 			isa = PBXGroup;
 			children = (
 				4FBA93672B86751600129BEF /* ProxManager.entitlements */,
-				4FBA93652B86751600129BEF /* Assets.xcassets */,
-				4FBA93612B86751500129BEF /* ProxManagerApp.swift */,
-				4FBA93632B86751500129BEF /* ProxmoxViews.swift */,
-				4F0756852B87FF6000544F73 /* SettingsView.swift */,
-				4FBD737F2B9540A300F8F1DA /* DetailView.swift */,
-				4FD3958A2B967CC700DAE28D /* NodeDetailView.swift */,
-				4F62C9022B96731A0067A66C /* QemuDetailView.swift */,
-				4FBDDEB82B868CD7003695C5 /* ProxmoxViewModels.swift */,
-				4F6DE0B52B87390C0016655B /* ProxmoxModels.swift */,
-				4FBDDEBC2B868D3D003695C5 /* ProxmoxNetworking.swift */,
+				4FD0C5D92DF9CC7400E7B5BB /* ViewModels */,
+				4FD0C5E42DF9CC7400E7B5BB /* Views */,
+				4FD0C5E52DF9CC7400E7B5BB /* Assets.xcassets */,
+				4FD0C5E62DF9CC7400E7B5BB /* Logger.swift */,
+				4FD0C5E72DF9CC7400E7B5BB /* NetworkManager.swift */,
+				4FD0C5E82DF9CC7400E7B5BB /* ProxManagerApp.swift */,
+				4FD0C5E92DF9CC7400E7B5BB /* ProxmoxAuthManager.swift */,
+				4FD0C5EA2DF9CC7400E7B5BB /* ProxmoxDataStore.swift */,
+				4FD0C5EB2DF9CC7400E7B5BB /* ProxmoxModels.swift */,
+				4FD0C5CF2DF9CC3900E7B5BB /* QNAPManager */,
 				4FBA93682B86751600129BEF /* Preview Content */,
 			);
 			path = ProxManager;
@@ -125,7 +133,6 @@
 		4FBA93682B86751600129BEF /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				4F62C9042B9674DF0067A66C /* Previews.swift */,
 				4FBA93692B86751600129BEF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -154,6 +161,11 @@
 			buildRules = (
 			);
 			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				4FD0C5CF2DF9CC3900E7B5BB /* QNAPManager */,
+				4FD0C5D92DF9CC7400E7B5BB /* ViewModels */,
+				4FD0C5E42DF9CC7400E7B5BB /* Views */,
 			);
 			name = ProxManager;
 			productName = ProxManager;
@@ -228,6 +240,10 @@
 				Base,
 			);
 			mainGroup = 4FBA93552B86751500129BEF;
+			packageReferences = (
+				4FD0C60B2DF9CECC00E7B5BB /* XCRemoteSwiftPackageReference "Citadel" */,
+				4FD0C60E2DF9CEDC00E7B5BB /* XCRemoteSwiftPackageReference "SwiftKeychainWrapper" */,
+			);
 			productRefGroup = 4FBA935F2B86751500129BEF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -245,7 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4FBA936A2B86751600129BEF /* Preview Assets.xcassets in Resources */,
-				4FBA93662B86751600129BEF /* Assets.xcassets in Resources */,
+				4FD0C5EC2DF9CC7400E7B5BB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,16 +308,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F0756862B87FF6000544F73 /* SettingsView.swift in Sources */,
-				4FBA93642B86751500129BEF /* ProxmoxViews.swift in Sources */,
-				4F6DE0B62B87390C0016655B /* ProxmoxModels.swift in Sources */,
-				4FD3958B2B967CC700DAE28D /* NodeDetailView.swift in Sources */,
-				4FBDDEBD2B868D3D003695C5 /* ProxmoxNetworking.swift in Sources */,
-				4F62C9052B9674DF0067A66C /* Previews.swift in Sources */,
-				4FBDDEB92B868CD7003695C5 /* ProxmoxViewModels.swift in Sources */,
-				4FBD73802B9540A300F8F1DA /* DetailView.swift in Sources */,
-				4F62C9032B96731A0067A66C /* QemuDetailView.swift in Sources */,
-				4FBA93622B86751500129BEF /* ProxManagerApp.swift in Sources */,
+				4FD0C5ED2DF9CC7400E7B5BB /* Logger.swift in Sources */,
+				4FD0C5F12DF9CC7400E7B5BB /* NetworkManager.swift in Sources */,
+				4FD0C5F52DF9CC7400E7B5BB /* ProxmoxDataStore.swift in Sources */,
+				4FD0C5F62DF9CC7400E7B5BB /* ProxmoxAuthManager.swift in Sources */,
+				4FD0C5F92DF9CC7400E7B5BB /* ProxmoxModels.swift in Sources */,
+				4FD0C5FD2DF9CC7400E7B5BB /* ProxManagerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -660,6 +672,77 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4FD0C6012DF9CCB100E7B5BB /* XCRemoteSwiftPackageReference "swift-nio-ssh" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-nio-ssh";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.10.0;
+			};
+		};
+		4FD0C6042DF9CCC200E7B5BB /* XCRemoteSwiftPackageReference "SwiftKeychainWrapper" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jrendel/SwiftKeychainWrapper.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.1;
+			};
+		};
+		4FD0C6072DF9CCEC00E7B5BB /* XCRemoteSwiftPackageReference "BigInt" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/attaswift/BigInt";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.0;
+			};
+		};
+		4FD0C60B2DF9CECC00E7B5BB /* XCRemoteSwiftPackageReference "Citadel" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/orlandos-nl/Citadel.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.10.0;
+			};
+		};
+		4FD0C60E2DF9CEDC00E7B5BB /* XCRemoteSwiftPackageReference "SwiftKeychainWrapper" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jrendel/SwiftKeychainWrapper.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4FD0C6022DF9CCB100E7B5BB /* NIOSSH */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4FD0C6012DF9CCB100E7B5BB /* XCRemoteSwiftPackageReference "swift-nio-ssh" */;
+			productName = NIOSSH;
+		};
+		4FD0C6052DF9CCC200E7B5BB /* SwiftKeychainWrapper */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4FD0C6042DF9CCC200E7B5BB /* XCRemoteSwiftPackageReference "SwiftKeychainWrapper" */;
+			productName = SwiftKeychainWrapper;
+		};
+		4FD0C6082DF9CCEC00E7B5BB /* BigInt */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4FD0C6072DF9CCEC00E7B5BB /* XCRemoteSwiftPackageReference "BigInt" */;
+			productName = BigInt;
+		};
+		4FD0C60C2DF9CECC00E7B5BB /* Citadel */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4FD0C60B2DF9CECC00E7B5BB /* XCRemoteSwiftPackageReference "Citadel" */;
+			productName = Citadel;
+		};
+		4FD0C60F2DF9CEDC00E7B5BB /* SwiftKeychainWrapper */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4FD0C60E2DF9CEDC00E7B5BB /* XCRemoteSwiftPackageReference "SwiftKeychainWrapper" */;
+			productName = SwiftKeychainWrapper;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4FBA93562B86751500129BEF /* Project object */;
 }
