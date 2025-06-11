@@ -1,7 +1,7 @@
 {
   "images" : [
     {
-      "filename" : "iOSAppStore.png",
+      "filename" : "iOS 1.png",
       "idiom" : "universal",
       "platform" : "ios",
       "size" : "1024x1024"
@@ -19,7 +19,7 @@
       "size" : "20x20"
     },
     {
-      "filename" : "iPad Settings.png",
+      "filename" : "iPhoneSettings1x.png",
       "idiom" : "iphone",
       "scale" : "1x",
       "size" : "29x29"
@@ -37,25 +37,25 @@
       "size" : "29x29"
     },
     {
-      "filename" : "iPhoneSpotlight2x.png",
+      "filename" : "iPhoneSpotlight2x 1.png",
       "idiom" : "iphone",
       "scale" : "2x",
       "size" : "40x40"
     },
     {
-      "filename" : "iPhoneSpotlight3x.png",
+      "filename" : "iPhoneSpotlight3x 1.png",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "40x40"
     },
     {
-      "filename" : "iPhone App Icon iOS 5,6.png",
+      "filename" : "iPhoneApp 5.6 1x.png",
       "idiom" : "iphone",
       "scale" : "1x",
       "size" : "57x57"
     },
     {
-      "filename" : "iPhone App Icon iOS 5,6@2x.png",
+      "filename" : "iPhoneApp 5.6 2x.png",
       "idiom" : "iphone",
       "scale" : "2x",
       "size" : "57x57"
@@ -79,61 +79,61 @@
       "size" : "1024x1024"
     },
     {
-      "filename" : "mac16pt1x.png",
+      "filename" : "icon_16x16.png",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "16x16"
     },
     {
-      "filename" : "mac16pt2x.png",
+      "filename" : "icon_16x16@2x.png",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "16x16"
     },
     {
-      "filename" : "mac32pt1x.png",
+      "filename" : "icon_32x32.png",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "32x32"
     },
     {
-      "filename" : "mac32pt2x.png",
+      "filename" : "icon_32x32@2x.png",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "32x32"
     },
     {
-      "filename" : "mac128pt1x.png",
+      "filename" : "icon_128x128.png",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "128x128"
     },
     {
-      "filename" : "mac128pt2x.png",
+      "filename" : "icon_128x128@2x.png",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "128x128"
     },
     {
-      "filename" : "mac256pt1x.png",
+      "filename" : "icon_256x256.png",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "256x256"
     },
     {
-      "filename" : "mac256pt2x.png",
+      "filename" : "icon_256x256@2x.png",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "256x256"
     },
     {
-      "filename" : "mac512pt1x.png",
+      "filename" : "icon_512x512.png",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "512x512"
     },
     {
-      "filename" : "mac512pt2x.png",
+      "filename" : "icon_512x512@2x.png",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "512x512"
